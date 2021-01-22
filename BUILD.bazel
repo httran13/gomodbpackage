@@ -1,8 +1,8 @@
 load("@io_bazel_rules_go//go:def.bzl", "go_library")
 
 go_library(
-    name = "gomodbpackage",
+    name = "go_default_library",
     srcs = ["somepackage.go"],
-    importpath = "github.com/httran13/monosea/go_proj/github.com/httran13/gomodbpackage",
+    importpath = "github.com/httran13/gomodbpackage",
     visibility = ["//visibility:public"],
 )
